@@ -4,4 +4,16 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "autotrain-advanced>=0.0.1",
+    "datasets>=3.3.2",
+    "evaluate>=0.4.3",
+    "ipykernel>=6.29.5",
+    "ipywidgets>=8.1.5",
+    "peft>=0.14.0",
+    "scikit-learn>=1.6.1",
+    "tensorboard>=2.19.0",
+    "torch>=2.6.0",
+    "transformers>=4.49.0",
+    "unsloth>=2025.2.15",
+]
